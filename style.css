@@ -5,7 +5,6 @@ body{
   background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
   background-position: right 52vw bottom 35vh, left 48vw top 52vh;
-  height: 100vh;
 }
 
 *{
@@ -20,6 +19,7 @@ main{
   align-items: center;
   justify-content: center;
 
+  min-height: 100vh;
   height: 100%;
   padding: 20px;
 }
